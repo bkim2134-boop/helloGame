@@ -1,0 +1,25 @@
+{
+  "name": "hellogame",
+  "version": "1.0.0",
+  "description": "base package for hello game",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^13.0.1",
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server -c-1 -p 8081",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkim2134-boop/helloGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkim2134-boop/helloGame/issues"
+  },
+  "homepage": "https://github.com/bkim2134-boop/helloGame#readme"
+}
